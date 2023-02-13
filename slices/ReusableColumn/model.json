@@ -1,0 +1,375 @@
+{
+  "id": "reusable_column",
+  "type": "SharedSlice",
+  "name": "ReusableColumn",
+  "description": "ReusableColumn",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "transactionalEmail",
+      "name": "Transactional Email",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "show_subdescription": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show SubDescription",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "signupForm",
+      "name": "Signup Form",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "emailMarketing",
+      "name": "Email Marketing",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "title_number": {
+          "type": "Text",
+          "config": {
+            "label": "Title Number",
+            "placeholder": ""
+          }
+        },
+        "title_text": {
+          "type": "Text",
+          "config": {
+            "label": "Title Text",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "smsMarketing",
+      "name": "SMS Marketing",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "card_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Card Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "is_marketing": {
+          "type": "Boolean",
+          "config": {
+            "label": "IS Marketing",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "whatsappMarketing",
+      "name": "Whatsapp Marketing",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "image_left": {
+          "type": "Image",
+          "config": {
+            "label": "Image Left",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_right": {
+          "type": "Image",
+          "config": {
+            "label": "Image Right",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "card_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Card Icon Classname",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "singleFlow",
+      "name": "Single Flow",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReusableColumn",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "card_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Card Icon Classname",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

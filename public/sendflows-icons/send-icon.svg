@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-send-icon">
+      <rect width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="send-icon" clip-path="url(#clip-send-icon)">
+    <g id="Group_8" data-name="Group 8" transform="matrix(0.966, 0.259, -0.259, 0.966, -691.42, -1081.615)">
+      <g id="mail-send-fill" transform="translate(1034.354 837.813)" opacity="0.498">
+        <path id="Path_19" data-name="Path 19" d="M0,0H361V361H0Z" fill="none"/>
+        <path id="Path_20" data-name="Path 20" d="M30.084,40.6V17.937A15.042,15.042,0,0,1,45.005,3H316A14.932,14.932,0,0,1,330.92,17.937V258.816A15.042,15.042,0,0,1,316,273.752H45.005a14.937,14.937,0,0,1-14.921-14.937V243.669H300.836V67.68L180.5,175.981ZM0,108.293H75.209v30.084H0ZM0,183.5H120.334v30.084H0Z" transform="translate(0 42.125)" fill="#5b61f9"/>
+      </g>
+      <g id="mail-send-line" transform="translate(1008 810.857)">
+        <path id="Path_21" data-name="Path 21" d="M0,0H361V361H0Z" fill="none"/>
+        <path id="Path_22" data-name="Path 22" d="M330.92,258.816A15.042,15.042,0,0,1,316,273.752H45.005a14.937,14.937,0,0,1-14.921-14.937V243.669H300.836V67.68L180.5,175.981,30.084,40.6V18.042A15.042,15.042,0,0,1,45.125,3H315.878A15.042,15.042,0,0,1,330.92,18.042ZM66.7,33.084,180.5,135.518,294.308,33.084ZM0,183.5H120.334v30.084H0Zm0-75.209H75.209v30.084H0Z" transform="translate(0 42.125)" fill="#031a61"/>
+      </g>
+    </g>
+  </g>
+</svg>

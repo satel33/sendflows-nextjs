@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-email-icon">
+      <rect width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="email-icon" clip-path="url(#clip-email-icon)">
+    <g id="Group_6" data-name="Group 6" transform="matrix(0.966, 0.259, -0.259, 0.966, -1007.568, -548.235)">
+      <g id="Group_3" data-name="Group 3" transform="translate(1151.967 199.767)">
+        <g id="mail-check-fill" transform="translate(26.319 31.42)" opacity="0.498">
+          <path id="Path_15" data-name="Path 15" d="M0,0H380.44V380.44H0Z" fill="none"/>
+          <path id="Path_16" data-name="Path 16" d="M319.033,166.922A95.11,95.11,0,0,0,197.625,288.33H17.852A15.852,15.852,0,0,1,2,272.478V18.852A15.852,15.852,0,0,1,17.852,3h285.33a15.852,15.852,0,0,1,15.852,15.852ZM271.478,304.181,215.427,248.13l22.43-22.414,33.621,33.637L327.529,203.3l22.414,22.414Z" transform="translate(29.703 44.555)" fill="#5b61f9"/>
+        </g>
+        <g id="mail-check-line">
+          <path id="Path_17" data-name="Path 17" d="M0,0H380.44V380.44H0Z" fill="none"/>
+          <path id="Path_18" data-name="Path 18" d="M319.033,177.368h-31.7V70.179L161.658,182.726,33.7,69.831v186.8H192.22v31.7H17.852A15.852,15.852,0,0,1,2,272.478V18.852A15.852,15.852,0,0,1,17.852,3h285.33a15.852,15.852,0,0,1,15.852,15.852ZM41.8,34.7l119.68,105.6L279.436,34.7ZM271.478,304.181,215.427,248.13l22.43-22.414,33.621,33.637L327.529,203.3l22.414,22.414Z" transform="translate(29.703 44.555)" fill="#031a61"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

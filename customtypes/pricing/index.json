@@ -1,0 +1,44 @@
+{
+  "id": "pricing",
+  "label": "Pricing",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "pricing": {
+              "type": "SharedSlice"
+            },
+            "highlight": {
+              "type": "SharedSlice"
+            },
+            "features": {
+              "type": "SharedSlice"
+            },
+            "faq": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

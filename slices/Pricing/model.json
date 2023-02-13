@@ -1,0 +1,112 @@
+{
+  "id": "pricing",
+  "type": "SharedSlice",
+  "name": "Pricing",
+  "description": "Pricing",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Pricing",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "price_number": {
+          "type": "Text",
+          "config": {
+            "label": "Price Number",
+            "placeholder": ""
+          }
+        },
+        "price_text": {
+          "type": "Text",
+          "config": {
+            "label": "Price Text",
+            "placeholder": ""
+          }
+        },
+        "button_text": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text",
+            "placeholder": ""
+          }
+        },
+        "is_highlighted": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Highlighted",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "is_popular": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Popular",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "aos_delay": {
+          "type": "Number",
+          "config": {
+            "label": "Aos Delay",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "status": {
+          "type": "Boolean",
+          "config": {
+            "label": "Status",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "is_new": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is New",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

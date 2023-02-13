@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-code-icon">
+      <rect width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="code-icon" clip-path="url(#clip-code-icon)">
+    <g id="Group_9" data-name="Group 9" transform="translate(-4779 292)">
+      <g id="code-s-slash-fill" transform="translate(4786.714 -269.286)" opacity="0.504">
+        <path id="Path_5" data-name="Path 5" d="M0,0H390.286V390.286H0Z" fill="none"/>
+        <path id="Path_6" data-name="Path 6" d="M390.286,149.357l-91.994,91.994L275.3,218.357l69-69-69-69,22.994-22.994Zm-344.3,0,69,69L91.994,241.351,0,149.357,91.994,57.364l22.978,22.994ZM159.172,295.715H124.566L231.114,3H265.72Z" transform="translate(0 45.786)" fill="#5b61f9"/>
+      </g>
+      <g id="code-s-slash-fill-2" data-name="code-s-slash-fill" transform="translate(4781.857 -305)">
+        <path id="Path_5-2" data-name="Path 5" d="M0,0H390.286V390.286H0Z" fill="none"/>
+        <path id="Path_6-2" data-name="Path 6" d="M390.286,149.357l-91.994,91.994L275.3,218.357l69-69-69-69,22.994-22.994Zm-344.3,0,69,69L91.994,241.351,0,149.357,91.994,57.364l22.978,22.994ZM159.172,295.715H124.566L231.114,3H265.72Z" transform="translate(0 45.786)" fill="#031a61"/>
+      </g>
+    </g>
+  </g>
+</svg>

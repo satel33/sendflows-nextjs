@@ -1,0 +1,49 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "percent",
+        "type": "Text"
+      },
+      "highlighttitle": {
+        "__TYPE__": "FieldContent",
+        "value": "library",
+        "type": "Text"
+      },
+      "buttontext": {
+        "__TYPE__": "FieldContent",
+        "value": "later",
+        "type": "Text"
+      },
+      "buttonplaceholder": {
+        "__TYPE__": "FieldContent",
+        "value": "clothes",
+        "type": "Text"
+      },
+      "description2": {
+        "__TYPE__": "FieldContent",
+        "value": "current",
+        "type": "Text"
+      },
+      "description1": {
+        "__TYPE__": "FieldContent",
+        "value": "automobile",
+        "type": "Text"
+      },
+      "description3": {
+        "__TYPE__": "FieldContent",
+        "value": "enter",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

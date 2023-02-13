@@ -1,0 +1,244 @@
+{
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "fine",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "FieldContent",
+    "value": "keep",
+    "type": "Text"
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "pricing$195185c2-74c3-4619-b3af-5c2171d95f19",
+        "name": "pricing",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "icon_classname": {
+              "__TYPE__": "FieldContent",
+              "value": "appearance",
+              "type": "Text"
+            },
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "division",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "nest",
+              "type": "Text"
+            },
+            "price_number": {
+              "__TYPE__": "FieldContent",
+              "value": "cook",
+              "type": "Text"
+            },
+            "price_text": {
+              "__TYPE__": "FieldContent",
+              "value": "watch",
+              "type": "Text"
+            },
+            "button_text": {
+              "__TYPE__": "FieldContent",
+              "value": "ants",
+              "type": "Text"
+            },
+            "is_highlighted": {
+              "__TYPE__": "BooleanContent",
+              "value": true
+            },
+            "is_popular": {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            },
+            "aos_delay": {
+              "__TYPE__": "FieldContent",
+              "value": "75",
+              "type": "Number"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "status",
+                  {
+                    "__TYPE__": "BooleanContent",
+                    "value": false
+                  }
+                ],
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "movement",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "is_new",
+                  {
+                    "__TYPE__": "BooleanContent",
+                    "value": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "highlight$686a1006-b945-4208-8302-f2476af5ed12",
+        "name": "highlight",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "warn",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Ea duis aliquip consectetur minim esse aliquip."
+                  }
+                }
+              ]
+            },
+            "with_slice": {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "card_title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "hall",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "features$1a8dbae8-3e02-4767-a177-494f7305990d",
+        "name": "features",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "yellow",
+              "type": "Text"
+            },
+            "buttontext": {
+              "__TYPE__": "FieldContent",
+              "value": "passage",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "beyond",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "folks",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "icon_classname",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "physical",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "faq$56124718-e1b2-4e0a-af30-174c9be51e38",
+        "name": "faq",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "pipe",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "learn",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "improve",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Nisi sint et proident. Occaecat est ea adipisicing adipisicing duis duis reprehenderit elit exercitation enim enim elit pariatur ipsum occaecat. Consequat voluptate excepteur consectetur ullamco officia nulla ut proident elit aliquip."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

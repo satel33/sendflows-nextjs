@@ -1,0 +1,43 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "opinion",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Excepteur labore culpa Lorem proident nostrud et aute veniam cupidatat consectetur mollit cupidatat laboris occaecat quis. Dolor enim eiusmod in fugiat officia ex tempor ad eiusmod anim eu elit sit."
+            }
+          }
+        ]
+      },
+      "with_slice": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "card_title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "sudden",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

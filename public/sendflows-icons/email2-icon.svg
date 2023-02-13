@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-email2-icon">
+      <rect width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="email2-icon" clip-path="url(#clip-email2-icon)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-191 -273.74)">
+      <g id="question-answer-fill" transform="translate(209.86 282)" opacity="0.498">
+        <path id="Path_25" data-name="Path 25" d="M0,0H390.286V390.286H0Z" fill="none"/>
+        <path id="Path_26" data-name="Path 26" d="M114.833,246.929H281.307l28.67,22.523V100.572h16.262A16.262,16.262,0,0,1,342.5,116.834V336.37l-72.447-56.917H131.1a16.262,16.262,0,0,1-16.262-16.262ZM73.447,214.405,1,271.322V19.262A16.262,16.262,0,0,1,17.262,3H261.191a16.262,16.262,0,0,1,16.262,16.262V214.405Z" transform="translate(15.262 45.786)" fill="#5b61f9"/>
+      </g>
+      <g id="question-answer-line" transform="translate(182.188 276.767)">
+        <path id="Path_27" data-name="Path 27" d="M0,0H390.286V390.286H0Z" fill="none"/>
+        <path id="Path_28" data-name="Path 28" d="M73.447,213.405,1,270.322V18.262A16.262,16.262,0,0,1,17.262,2H261.191a16.262,16.262,0,0,1,16.262,16.262V213.405ZM62.194,180.881H244.929V34.524H33.524V203.4Zm52.64,65.048H281.307l28.67,22.523V99.572h16.262A16.262,16.262,0,0,1,342.5,115.833V335.37l-72.447-56.917H131.1a16.262,16.262,0,0,1-16.262-16.262Z" transform="translate(15.262 30.524)" fill="#031a61"/>
+      </g>
+    </g>
+  </g>
+</svg>

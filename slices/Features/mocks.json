@@ -1,0 +1,88 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "note",
+        "type": "Text"
+      },
+      "buttontext": {
+        "__TYPE__": "FieldContent",
+        "value": "drink",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "hold",
+              "type": "Text"
+            }
+          ],
+          [
+            "description",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "ocean",
+              "type": "Text"
+            }
+          ],
+          [
+            "icon_classname",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "needed",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "functions",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "basket",
+        "type": "Text"
+      },
+      "subtitle": {
+        "__TYPE__": "FieldContent",
+        "value": "two",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "property",
+              "type": "Text"
+            }
+          ],
+          [
+            "icon_classname",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "mine",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

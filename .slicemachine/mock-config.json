@@ -1,0 +1,96 @@
+{
+  "slices": {
+    "Hero": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Testimonials": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Features": {
+      "default": {
+        "primary": {}
+      },
+      "functions": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Highlight": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Reveiws": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Process": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Faq": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "ComparisonTables": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "HighlightNormal": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Pricing": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "ReusableColumn": {
+      "default": {
+        "primary": {},
+        "items": {}
+      },
+      "transactionalEmail": {
+        "items": {},
+        "primary": {}
+      },
+      "signupForm": {
+        "primary": {},
+        "items": {}
+      },
+      "emailMarketing": {
+        "items": {},
+        "primary": {}
+      },
+      "smsMarketing": {
+        "items": {},
+        "primary": {}
+      },
+      "whatsappMarketing": {
+        "primary": {},
+        "items": {}
+      },
+      "singleFlow": {
+        "items": {}
+      }
+    }
+  },
+  "_cts": {
+    "page": {},
+    "pricing": {}
+  }
+}

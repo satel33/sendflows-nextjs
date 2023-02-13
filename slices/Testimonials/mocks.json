@@ -1,0 +1,54 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title_first": {
+        "__TYPE__": "FieldContent",
+        "value": "run",
+        "type": "Text"
+      },
+      "number": {
+        "__TYPE__": "FieldContent",
+        "value": "26",
+        "type": "Number"
+      },
+      "title_last": {
+        "__TYPE__": "FieldContent",
+        "value": "accurate",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "logo",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+                "width": 3810,
+                "height": 5715
+              },
+              "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+              "width": 3810,
+              "height": 5715,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

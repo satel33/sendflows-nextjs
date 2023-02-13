@@ -1,0 +1,60 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "highlight_title": {
+        "__TYPE__": "FieldContent",
+        "value": "movie",
+        "type": "Text"
+      },
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "branch",
+        "type": "Text"
+      },
+      "subtitle_left": {
+        "__TYPE__": "FieldContent",
+        "value": "thrown",
+        "type": "Text"
+      },
+      "subdescription_left": {
+        "__TYPE__": "FieldContent",
+        "value": "girl",
+        "type": "Text"
+      },
+      "subtitle_right": {
+        "__TYPE__": "FieldContent",
+        "value": "classroom",
+        "type": "Text"
+      },
+      "description_right": {
+        "__TYPE__": "FieldContent",
+        "value": "should",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "sunlight",
+              "type": "Text"
+            }
+          ],
+          [
+            "check",
+            {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

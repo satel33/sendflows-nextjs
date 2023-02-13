@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1506" height="1004" viewBox="0 0 1506 1004">
+  <defs>
+    <clipPath id="clip-placeholder">
+      <rect width="1506" height="1004"/>
+    </clipPath>
+  </defs>
+  <g id="placeholder" clip-path="url(#clip-placeholder)">
+    <rect width="1506" height="1004" fill="#cacaca"/>
+    <g id="image-add-fill" transform="translate(600.617 349.617)">
+      <path id="Path_61" data-name="Path 61" d="M0,0H304.766V304.766H0Z" fill="none"/>
+      <path id="Path_62" data-name="Path 62" d="M243.273,155.383v38.1h38.1v25.4h-38.1v38.1h-25.4v-38.1h-38.1v-25.4h38.1v-38.1ZM243.374,3a12.606,12.606,0,0,1,12.6,12.61V134.329a76.066,76.066,0,0,0-25.4-4.343V28.4H27.4l.013,177.78,118-118.008A12.686,12.686,0,0,1,162.167,87.1l1.181,1.079,45.029,45.08a76.229,76.229,0,0,0-49.651,98.325L14.6,231.574A12.61,12.61,0,0,1,2,218.965V15.61A12.7,12.7,0,0,1,14.6,3H243.374ZM78.191,53.794a25.4,25.4,0,1,1-25.4,25.4A25.4,25.4,0,0,1,78.191,53.794Z" transform="translate(23.397 35.096)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

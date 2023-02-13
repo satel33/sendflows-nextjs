@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="383" height="385" viewBox="0 0 383 385">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="1988" height="384"/>
+    </clipPath>
+    <clipPath id="clip-Symbol-Sendflows-Colored">
+      <rect width="383" height="385"/>
+    </clipPath>
+  </defs>
+  <g id="Symbol-Sendflows-Colored" clip-path="url(#clip-Symbol-Sendflows-Colored)">
+    <g id="Logo_Sendflows_White" data-name="Logo Sendflows White" clip-path="url(#clip-path)">
+      <g id="Group_1" data-name="Group 1" transform="translate(-566 -1308)">
+        <g id="symbol-sendflows_1_" data-name="symbol-sendflows (1)" transform="translate(566 1308)">
+          <path id="Path_1" data-name="Path 1" d="M89.067,127.534c9.581-37.679,30.278-66.728,50.607-90.466a6.909,6.909,0,0,0-7.616-10.993L18.163,67.869a27.637,27.637,0,0,0-10.042,45.54l61.416,61.416a6.909,6.909,0,0,0,11.792-4.361,258.956,258.956,0,0,1,7.738-42.93Z" transform="translate(0.007 53.057)" fill="#031a61"/>
+          <path id="Path_2" data-name="Path 2" d="M232.644,1.707,181.269,20.623a79.411,79.411,0,0,0-50.545,58.345,150.964,150.964,0,0,0-2.7,18.67c-3.992,48.734,18.21,65.377,6.418,121.174C129.281,242.55,120.9,282.87,85.4,302.83a95.2,95.2,0,0,1-26.624,9.888,6.909,6.909,0,0,0-3.409,11.638L103.3,372.322a26.931,26.931,0,0,0,44.189-9.7L268.05,37.3A27.637,27.637,0,0,0,232.644,1.707Z" transform="translate(110.478 -0.021)" fill="#5b61f9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

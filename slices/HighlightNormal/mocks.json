@@ -1,0 +1,29 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "fill",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "gather",
+        "type": "Text"
+      },
+      "button_text": {
+        "__TYPE__": "FieldContent",
+        "value": "dream",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

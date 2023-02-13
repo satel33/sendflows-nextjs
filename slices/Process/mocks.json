@@ -1,0 +1,59 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "remarkable",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "people",
+        "type": "Text"
+      },
+      "highlight_title": {
+        "__TYPE__": "FieldContent",
+        "value": "imagine",
+        "type": "Text"
+      },
+      "button_text": {
+        "__TYPE__": "FieldContent",
+        "value": "more",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "dark",
+              "type": "Text"
+            }
+          ],
+          [
+            "description",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "fat",
+              "type": "Text"
+            }
+          ],
+          [
+            "icon_classname",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "laugh",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

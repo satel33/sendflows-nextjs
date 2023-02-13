@@ -1,0 +1,146 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "setting",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Aliquip ea minim mollit labore. Incididunt quis dolor exercitation."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "name",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "higher",
+              "type": "Text"
+            }
+          ],
+          [
+            "bio",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "leg",
+              "type": "Text"
+            }
+          ],
+          [
+            "avatar",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+                "width": 3882,
+                "height": 2584
+              },
+              "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+              "width": 3882,
+              "height": 2584,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "style2",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "fast",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Sit labore deserunt eu magna pariatur aute dolor cillum excepteur enim ad nulla do sit dolore. Nostrud exercitation sunt elit do enim nulla dolor proident laborum ipsum ullamco in do."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "name",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "deep",
+              "type": "Text"
+            }
+          ],
+          [
+            "bio",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "printed",
+              "type": "Text"
+            }
+          ],
+          [
+            "avatar",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+                "width": 5243,
+                "height": 3495
+              },
+              "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+              "width": 5243,
+              "height": 3495,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

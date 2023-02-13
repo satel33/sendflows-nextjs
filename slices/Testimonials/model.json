@@ -1,0 +1,49 @@
+{
+  "id": "testimonials",
+  "type": "SharedSlice",
+  "name": "Testimonials",
+  "description": "Testimonials",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Testimonials",
+      "primary": {
+        "title_first": {
+          "type": "Text",
+          "config": {
+            "label": "Title First",
+            "placeholder": ""
+          }
+        },
+        "number": {
+          "type": "Number",
+          "config": {
+            "label": "Number",
+            "placeholder": ""
+          }
+        },
+        "title_last": {
+          "type": "Text",
+          "config": {
+            "label": "Title Last",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

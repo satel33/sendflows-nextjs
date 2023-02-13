@@ -1,0 +1,92 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "forget",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "log",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "until",
+              "type": "Text"
+            }
+          ],
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Qui esse fugiat consequat nostrud officia esse enim quis mollit adipisicing fugiat reprehenderit qui."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "style1",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "one",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "silent",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "double",
+              "type": "Text"
+            }
+          ],
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Fugiat Lorem ad qui ut fugiat esse veniam minim aliquip eiusmod. Nisi quis elit nostrud duis ipsum sit nulla et elit in eiusmod ea."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

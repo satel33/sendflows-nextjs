@@ -1,0 +1,80 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "icon_classname": {
+        "__TYPE__": "FieldContent",
+        "value": "dress",
+        "type": "Text"
+      },
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "continued",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "popular",
+        "type": "Text"
+      },
+      "price_number": {
+        "__TYPE__": "FieldContent",
+        "value": "seen",
+        "type": "Text"
+      },
+      "price_text": {
+        "__TYPE__": "FieldContent",
+        "value": "community",
+        "type": "Text"
+      },
+      "button_text": {
+        "__TYPE__": "FieldContent",
+        "value": "improve",
+        "type": "Text"
+      },
+      "is_highlighted": {
+        "__TYPE__": "BooleanContent",
+        "value": false
+      },
+      "is_popular": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      },
+      "aos_delay": {
+        "__TYPE__": "FieldContent",
+        "value": "23",
+        "type": "Number"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "protection",
+              "type": "Text"
+            }
+          ],
+          [
+            "status",
+            {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          ],
+          [
+            "is_new",
+            {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

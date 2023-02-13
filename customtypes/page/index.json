@@ -1,0 +1,61 @@
+{
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "testimonials": {
+              "type": "SharedSlice"
+            },
+            "features": {
+              "type": "SharedSlice"
+            },
+            "single_flow": {
+              "type": "SharedSlice"
+            },
+            "highlight": {
+              "type": "SharedSlice"
+            },
+            "reveiws": {
+              "type": "SharedSlice"
+            },
+            "process": {
+              "type": "SharedSlice"
+            },
+            "faq": {
+              "type": "SharedSlice"
+            },
+            "comparison_tables": {
+              "type": "SharedSlice"
+            },
+            "highlight_normal": {
+              "type": "SharedSlice"
+            },
+            "pricing": {
+              "type": "SharedSlice"
+            },
+            "reusable_column": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

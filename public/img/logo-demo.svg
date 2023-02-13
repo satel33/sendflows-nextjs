@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="20" viewBox="0 0 114 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 20px;
+        font-family: Gilroy-Black;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(0.39 -0.38)">
+    <text id="YOUR_LOGO" data-name="YOUR LOGO" class="cls-1" transform="translate(-0.39 15.38)"><tspan x="0" y="0">YOUR LOGO</tspan></text>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="4.658" cy="6.212" rx="4.658" ry="6.212" transform="matrix(1, -0.017, 0.017, 1, 100.788, 2.307)"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="4.658" cy="6.212" rx="4.658" ry="6.212" transform="matrix(1, -0.017, 0.017, 1, 69.697, 2.307)"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cls-2" cx="4.658" cy="5.06" rx="4.658" ry="5.06" transform="matrix(1, -0.017, 0.017, 1, 14.761, 3.459)"/>
+  </g>
+</svg>

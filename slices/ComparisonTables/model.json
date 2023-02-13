@@ -1,0 +1,78 @@
+{
+  "id": "comparison_tables",
+  "type": "SharedSlice",
+  "name": "ComparisonTables",
+  "description": "ComparisonTables",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ComparisonTables",
+      "primary": {
+        "highlight_title": {
+          "type": "Text",
+          "config": {
+            "label": "Highlight Title",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "subtitle_left": {
+          "type": "Text",
+          "config": {
+            "label": "SubTitle Left",
+            "placeholder": ""
+          }
+        },
+        "subdescription_left": {
+          "type": "Text",
+          "config": {
+            "label": "SubDescription Left",
+            "placeholder": ""
+          }
+        },
+        "subtitle_right": {
+          "type": "Text",
+          "config": {
+            "label": "SubTitle Right",
+            "placeholder": ""
+          }
+        },
+        "description_right": {
+          "type": "Text",
+          "config": {
+            "label": "Description Right",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "check": {
+          "type": "Boolean",
+          "config": {
+            "label": "Check",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
