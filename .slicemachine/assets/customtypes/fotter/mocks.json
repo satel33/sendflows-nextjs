@@ -1,0 +1,48 @@
+{
+  "link_list": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "plate",
+              "type": "Text"
+            }
+          ],
+          [
+            "link",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "wise",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "tip": {
+    "__TYPE__": "FieldContent",
+    "value": "everywhere",
+    "type": "Text"
+  },
+  "button_label": {
+    "__TYPE__": "FieldContent",
+    "value": "behavior",
+    "type": "Text"
+  },
+  "button_link": {
+    "__TYPE__": "FieldContent",
+    "value": "lake",
+    "type": "Text"
+  },
+  "button_placeholder": {
+    "__TYPE__": "FieldContent",
+    "value": "automobile",
+    "type": "Text"
+  }
+}

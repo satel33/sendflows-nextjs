@@ -1,0 +1,43 @@
+{
+  "link_list": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "link",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "couple",
+              "type": "Text"
+            }
+          ],
+          [
+            "label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "farther",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "button_icon_classname": {
+    "__TYPE__": "FieldContent",
+    "value": "laid",
+    "type": "Text"
+  },
+  "button_label": {
+    "__TYPE__": "FieldContent",
+    "value": "substance",
+    "type": "Text"
+  },
+  "button_link": {
+    "__TYPE__": "FieldContent",
+    "value": "drink",
+    "type": "Text"
+  }
+}

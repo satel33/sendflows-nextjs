@@ -105,6 +105,7 @@ const Faq = ({ slice }) => {
                 <div id="faqOne" className="border">
                   {items.map((item, key) => (
                     <div
+                      key={key}
                       className={`card ${
                         key === 0
                           ? 'border-top-0 border-left-0 border-right-0'

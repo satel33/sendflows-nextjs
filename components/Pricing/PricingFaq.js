@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const PricingFaq = () => {
   return (
     <section className="space-2">
@@ -23,7 +25,7 @@ const PricingFaq = () => {
                 >
                   <div className="d-flex justify-content-between align-items-center">
                     <h6 className="mb-0">
-                      Cosa significa 'sviluppo funzioni personalizzate'?
+                      Cosa significa &apos;sviluppo funzioni personalizzate&apos;?
                     </h6>
                     <i className="ri-arrow-down-s-line ri-lg"></i>
                   </div>
@@ -32,7 +34,7 @@ const PricingFaq = () => {
                   <p className="mb-0 px-3 px-md-4 pb-3 pb-md-4">
                     Lo sviluppo di funzioni personalizzate è un servizio che
                     offriamo a tutti i nostri clienti attraverso il quale
-                    possono richiedere l'implementazione di una funzione
+                    possono richiedere l&apos;implementazione di una funzione
                     aggiuntiva non presente necessaria al loro business.
                   </p>
                 </div>
@@ -55,7 +57,7 @@ const PricingFaq = () => {
                     Certo, Sendflows offre un piano di base gratuito per far
                     testare agli utenti il suo funzionamento.
                     <br />
-                    👉🏼 <a href="/register">Provalo adesso</a>
+                    👉🏼 <Link href="/register">Provalo adesso</Link>
                   </p>
                 </div>
               </div>

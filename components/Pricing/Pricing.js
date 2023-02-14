@@ -18,7 +18,7 @@ const Pricing = () => {
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>6'000/mese Email Marketing</span>
+                  <span>6&apos;000/mese Email Marketing</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -81,7 +81,7 @@ const Pricing = () => {
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>20'000 Email Marketing</span>
+                  <span>20&apos;000 Email Marketing</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -89,7 +89,7 @@ const Pricing = () => {
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>2'000 Contatti</span>
+                  <span>2&apos;000 Contatti</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -148,7 +148,7 @@ const Pricing = () => {
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>50'000 Email Marketing</span>
+                  <span>50&apos;000 Email Marketing</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -156,7 +156,7 @@ const Pricing = () => {
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>3'000 Contatti</span>
+                  <span>3&apos;000 Contatti</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -185,7 +185,7 @@ const Pricing = () => {
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>1'000 Whatsapp Inclusi</span>
+                  <span>1&apos;000 Whatsapp Inclusi</span>
                 </li>
               </ul>
               <a
@@ -221,7 +221,7 @@ const Pricing = () => {
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>100'000 Email Marketing</span>
+                  <span>100&apos;000 Email Marketing</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -229,7 +229,7 @@ const Pricing = () => {
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>5'000 Contatti</span>
+                  <span>5&apos;000 Contatti</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
@@ -258,7 +258,7 @@ const Pricing = () => {
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>
-                  <span>5'000 Whatsapp Inclusi</span>
+                  <span>5&apos;000 Whatsapp Inclusi</span>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <i className="ri-check-fill ri-xl mr-2"></i>

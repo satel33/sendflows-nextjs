@@ -1,0 +1,73 @@
+{
+  "link_list": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "station",
+              "type": "Text"
+            }
+          ],
+          [
+            "link",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "meat",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "tip": {
+    "__TYPE__": "FieldContent",
+    "value": "are",
+    "type": "Text"
+  },
+  "title_success": {
+    "__TYPE__": "FieldContent",
+    "value": "quarter",
+    "type": "Text"
+  },
+  "title_fail": {
+    "__TYPE__": "FieldContent",
+    "value": "block",
+    "type": "Text"
+  },
+  "button_label": {
+    "__TYPE__": "FieldContent",
+    "value": "putting",
+    "type": "Text"
+  },
+  "button_placeholder": {
+    "__TYPE__": "FieldContent",
+    "value": "itself",
+    "type": "Text"
+  },
+  "column_left": {
+    "__TYPE__": "FieldContent",
+    "value": "production",
+    "type": "Text"
+  },
+  "column_middle_first": {
+    "__TYPE__": "FieldContent",
+    "value": "as",
+    "type": "Text"
+  },
+  "column_middle_second": {
+    "__TYPE__": "FieldContent",
+    "value": "report",
+    "type": "Text"
+  },
+  "column_right": {
+    "__TYPE__": "FieldContent",
+    "value": "opposite",
+    "type": "Text"
+  }
+}

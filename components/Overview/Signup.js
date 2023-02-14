@@ -125,12 +125,13 @@ const Signup = () => {
           <div className="col-lg-5 mt-4 mt-lg-0" data-aos="fade-left">
             <h2 className="font-weight-bold">
               Costruisci il tuo <span className="text-primary">form</span>{' '}
-              d'iscrizione <span className="text-primary">personalizzato</span>.
+              d&apos;iscrizione{' '}
+              <span className="text-primary">personalizzato</span>.
             </h2>
             <p className="lead mt-2 mb-4">
               Grazie al form builder di Sendflows potrai{' '}
-              <strong>costruire il tuo modulo d'iscrizione</strong> contatti con
-              una semplice interfaccia drag&drop
+              <strong>costruire il tuo modulo d&apos;iscrizione</strong>{' '}
+              contatti con una semplice interfaccia drag&drop
             </p>
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2">

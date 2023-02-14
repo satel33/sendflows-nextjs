@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Program = () => {
   return (
     <section className="space-5">
@@ -19,7 +21,7 @@ const Program = () => {
             <p className="lead mt-2 mb-4">
               Inoltre Sendflows ti fornirà tutta la documentazione necessaria da
               consegnare al tuo cliente per sfruttura tutte le nostre{' '}
-              <a href="/features">funzioni</a>.
+              <Link href="/feature">funzioni</Link>.
             </p>
             <div className="row">
               <div className="col">

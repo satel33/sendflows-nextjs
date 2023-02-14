@@ -41,7 +41,7 @@ const Process = ({ slice }) => (
       </div>
       <div className="w-100 w-lg-75 text-center mx-auto mt-3">
         <a
-          href="/developers"
+          href="/developer"
           className="d-inline-flex align-items-center btn btn-outline-primary mt-4"
         >
           {slice.primary.button_text}

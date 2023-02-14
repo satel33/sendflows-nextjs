@@ -1,26 +1,35 @@
+import Layout from '@/components/Layout'
 import { SliceZone } from '@prismicio/react'
 
 import { createClient } from '../prismicio'
 import { components } from '../slices'
 
-const Page = ({ page }) => {
+const Page = ({ page, header, footer }) => {
   return (
-    <>
+    <Layout
+      alternateLanguages={page.alternate_languages}
+      header={header}
+      footer={footer}
+    >
       <SliceZone slices={page.data.slices} components={components} />
-    </>
+    </Layout>
   )
 }
 
 export default Page
 
-export async function getStaticProps({ params,  previewData }) {
+export async function getStaticProps({ params, locale, previewData }) {
   const client = createClient({ previewData })
 
-  const page = await client.getByUID('page', params.uid)
+  const page = await client.getByUID('page', params.uid, { lang: locale })
+  const header = await client.getSingle('header', { lang: locale })
+  const footer = await client.getSingle('footer', { lang: locale })
 
   return {
     props: {
       page,
+      header,
+      footer,
     },
   }
 }

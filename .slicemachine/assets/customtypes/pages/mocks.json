@@ -1,0 +1,523 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "make"
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "banner$374a5aae-dddb-48d8-9ede-b4751fdaa756",
+        "name": "banner",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "call",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "stuck",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "comparison_tables$76ec8d6a-fc45-4210-9344-dc867c455dc2",
+        "name": "comparison_tables",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "highlight_title": {
+              "__TYPE__": "FieldContent",
+              "value": "swim",
+              "type": "Text"
+            },
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "bicycle",
+              "type": "Text"
+            },
+            "subtitle_left": {
+              "__TYPE__": "FieldContent",
+              "value": "receive",
+              "type": "Text"
+            },
+            "subdescription_left": {
+              "__TYPE__": "FieldContent",
+              "value": "detail",
+              "type": "Text"
+            },
+            "subtitle_right": {
+              "__TYPE__": "FieldContent",
+              "value": "parallel",
+              "type": "Text"
+            },
+            "description_right": {
+              "__TYPE__": "FieldContent",
+              "value": "chain",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "long",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "check",
+                  {
+                    "__TYPE__": "BooleanContent",
+                    "value": false
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "faq$47058cc3-6003-41b2-a01b-b28f94df454f",
+        "name": "faq",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "balloon",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "occasionally",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "dress",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Sint est ea culpa ex labore."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "features$a7f2440e-9710-4c3b-821f-9af43096c41a",
+        "name": "features",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "choice",
+              "type": "Text"
+            },
+            "buttontext": {
+              "__TYPE__": "FieldContent",
+              "value": "flag",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "supply",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "skill",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "icon_classname",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "forgot",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "highlight$3063840a-1c0f-49a0-b72e-0b537c21187c",
+        "name": "highlight",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "sudden",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Excepteur ea irure minim ea aliqua cillum eiusmod eu in. Ex incididunt quis ullamco adipisicing consectetur ex laborum esse adipisicing officia nisi aliqua pariatur."
+                  }
+                }
+              ]
+            },
+            "with_slice": {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "card_title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "end",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "process$c10dbf3e-b818-4edc-8df1-6b93806fa969",
+        "name": "process",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "highlight_title": {
+              "__TYPE__": "FieldContent",
+              "value": "high",
+              "type": "Text"
+            },
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "cause",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "our",
+              "type": "Text"
+            },
+            "button_text": {
+              "__TYPE__": "FieldContent",
+              "value": "park",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "column",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "flight",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "icon_classname",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "when",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "highlight_normal$244dbb12-c217-4184-a957-b65a4fb77f33",
+        "name": "highlight_normal",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "belt",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "FieldContent",
+              "value": "everywhere",
+              "type": "Text"
+            },
+            "button_text": {
+              "__TYPE__": "FieldContent",
+              "value": "seems",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "reusable_column$348526b9-30d2-4d03-81be-5448b291a975",
+        "name": "reusable_column",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "job",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Et ipsum commodo deserunt velit exercitation nisi reprehenderit adipisicing cillum incididunt aliqua aliquip duis pariatur."
+                  }
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "studying",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "description",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Deserunt excepteur consequat do qui non. Ad ex ipsum non ea quis cupidatat irure id mollit magna sint."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "reveiws$b14e376e-deb5-4614-a36a-19d0d4eb34ed",
+        "name": "reveiws",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "board",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "description",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Ipsum ex anim nulla nostrud do culpa amet magna anim labore. Duis velit non velit laborum cupidatat. Ea aliqua cupidatat in ullamco elit pariatur."
+                        }
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "name",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "won",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "bio",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "stuck",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "avatar",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+                      "width": 4016,
+                      "height": 6016
+                    },
+                    "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+                    "width": 4016,
+                    "height": 6016,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "testimonials$d7b9a5ef-0107-433d-9b9c-357f6a976b83",
+        "name": "testimonials",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title_first": {
+              "__TYPE__": "FieldContent",
+              "value": "chosen",
+              "type": "Text"
+            },
+            "number": {
+              "__TYPE__": "FieldContent",
+              "value": "94",
+              "type": "Number"
+            },
+            "title_last": {
+              "__TYPE__": "FieldContent",
+              "value": "cloth",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "logo",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+                      "width": 4272,
+                      "height": 2848
+                    },
+                    "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+                    "width": 4272,
+                    "height": 2848,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

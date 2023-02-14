@@ -1,0 +1,12 @@
+{
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "outside",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "FieldContent",
+    "value": "national",
+    "type": "Text"
+  }
+}

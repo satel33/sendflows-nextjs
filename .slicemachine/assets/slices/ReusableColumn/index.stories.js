@@ -25,3 +25,6 @@ _WhatsappMarketing.storyName = ''
 
 export const _SingleFlow = () => <MyComponent slice={{"variation":"singleFlow","version":"sktwi1xtmkfgx8626","items":[{"title":"planet"}],"primary":{"title":"appropriate","description":[{"type":"paragraph","text":"Minim nulla qui duis. Ea fugiat laborum qui aliqua nisi officia.","spans":[]}],"card_icon_classname":"foot"},"id":"_SingleFlow","slice_type":"reusable_column"}} />
 _SingleFlow.storyName = ''
+
+export const _CommonWithSingleImage = () => <MyComponent slice={{"variation":"commonWithSingleImage","version":"sktwi1xtmkfgx8626","items":[{"title":"dollar"}],"primary":{"title":"machine","description":[{"type":"paragraph","text":"Nostrud magna labore ullamco amet ea adipisicing. Voluptate commodo irure anim irure ut velit dolor est incididunt est.","spans":[]}],"image":{"dimensions":{"width":4000,"height":4000},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1587653915936-5623ea0b949a"},"is_revert":false,"button_icon_classname":"coast","button_label":"die"},"id":"_CommonWithSingleImage","slice_type":"reusable_column"}} />
+_CommonWithSingleImage.storyName = ''

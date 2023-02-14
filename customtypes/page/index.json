@@ -17,40 +17,52 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "hero": {
-              "type": "SharedSlice"
-            },
-            "testimonials": {
+            "faq": {
               "type": "SharedSlice"
             },
             "features": {
               "type": "SharedSlice"
             },
-            "single_flow": {
+            "hero": {
               "type": "SharedSlice"
             },
             "highlight": {
               "type": "SharedSlice"
             },
-            "reveiws": {
-              "type": "SharedSlice"
-            },
-            "process": {
-              "type": "SharedSlice"
-            },
-            "faq": {
-              "type": "SharedSlice"
-            },
-            "comparison_tables": {
+            "pricing": {
               "type": "SharedSlice"
             },
             "highlight_normal": {
               "type": "SharedSlice"
             },
-            "pricing": {
+            "process": {
+              "type": "SharedSlice"
+            },
+            "testimonials": {
+              "type": "SharedSlice"
+            },
+            "reveiws": {
               "type": "SharedSlice"
             },
             "reusable_column": {
+              "type": "SharedSlice"
+            },
+            "comparison_tables": {
+              "type": "SharedSlice"
+            },
+            "banner": {
+              "type": "SharedSlice"
+            },
+            "reward": {
+              "type": "SharedSlice"
+            },
+            "privacy": {
+              "type": "SharedSlice"
+            },
+            "cookie": {
+              "type": "SharedSlice"
+            },
+            "blog": {
               "type": "SharedSlice"
             }
           }

@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Reviews = () => {
   return (
     <section className="space-5 bg-light">
@@ -29,10 +31,10 @@ const Reviews = () => {
           </div>
           <div className="card card-body">
             <p className="lead">
-              “Ho perso mesi a cercare tool che mi permettesserò di avere email
-              transazionali e di marketing in un'unica soluzione e soprattutto
-              conveniente per una startup come{' '}
-              <a href="https://beautygo.it">beautygo.it</a>.”
+              &lsquo;Ho perso mesi a cercare tool che mi permettesserò di avere
+              email transazionali e di marketing in un&apos;unica soluzione e
+              soprattutto conveniente per una startup come{' '}
+              <Link href="https://beautygo.it">beautygo.it</Link>.&rsquo;
             </p>
             <div className="d-flex mt-5 pt-2">
               <img
@@ -107,7 +109,7 @@ const Reviews = () => {
             <p className="lead">
               “I miei clienti avevano bisogno di un tool completo e semplice da
               usare ed affiliandomi a Sendflows ho ottenuto sia una soluzione
-              per loro che un'altra entrata per me.”
+              per loro che un&apos;altra entrata per me.”
             </p>
             <div className="d-flex mt-5 pt-2">
               <img

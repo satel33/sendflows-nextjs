@@ -4,7 +4,7 @@ const Functions = () => {
       <div className="container">
         <div className="w-100 w-lg-75 text-center mx-auto mb-5">
           <h6 className="text-primary font-weight-bold">LE NOSTRE FUNZIONI</h6>
-          <h2>Risparmia tempo e crea un'esperienza omnichannel.</h2>
+          <h2>Risparmia tempo e crea un&apos;esperienza omnichannel.</h2>
         </div>
         <div className="row d-flex flex-wrap justify-content-around text-center">
           <div className="col-6 col-md-4 col-lg-3 my-5" data-aos="zoom-in">

@@ -6,7 +6,7 @@ const DeveloperFAQ = () => {
           <h6 className="text-primary font-weight-bold">FAQ</h6>
           <h2>Most asked questions.</h2>
           <p className="lead">
-            We have the most answers you're looking for, in more ways than one.
+            We have the most answers you&apos;re looking for, in more ways than one.
             Ask questions, browse around for answers, or submit your feature
             requests.
           </p>

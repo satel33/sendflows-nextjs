@@ -86,11 +86,40 @@
       },
       "singleFlow": {
         "items": {}
+      },
+      "commonWithSingleImage": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Banner": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Reward": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Privacy": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Cookie": {
+      "default": {
+        "primary": {},
+        "items": {}
       }
     }
   },
   "_cts": {
+    "pricing": {},
+    "header": {},
+    "footer": {},
     "page": {},
-    "pricing": {}
+    "article": {},
+    "blog": {}
   }
 }

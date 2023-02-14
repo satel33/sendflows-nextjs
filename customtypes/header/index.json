@@ -1,0 +1,53 @@
+{
+  "id": "header",
+  "label": "Header",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "link_list": {
+        "type": "Group",
+        "config": {
+          "label": "Link List",
+          "fields": {
+            "link": {
+              "type": "Text",
+              "config": {
+                "label": "Link",
+                "placeholder": ""
+              }
+            },
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "button_icon_classname": {
+        "type": "Text",
+        "config": {
+          "label": "Button Icon Classname",
+          "placeholder": ""
+        }
+      },
+      "button_label": {
+        "type": "Text",
+        "config": {
+          "label": "Button Label",
+          "placeholder": ""
+        }
+      },
+      "button_link": {
+        "type": "Text",
+        "config": {
+          "label": "Button Link",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

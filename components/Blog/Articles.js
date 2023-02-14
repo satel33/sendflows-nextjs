@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Articles = () => {
   return (
     <section className="space-5 pb-5 bg-light">
@@ -14,24 +16,24 @@ const Articles = () => {
           <div className="card card-body bg-primary-3 text-white px-lg-3 py-lg-4 rounded-lg mb-5 hover-scale">
             <div className="row align-items-center justify-content-around">
               <div className="col-md-6 col-lg-5 mb-4 mb-md-0 p-0">
-                <a href="/article">
+                <Link href="/article">
                   <img
                     className="img-fluid rounded-lg"
                     src="/img/1880x1254.png"
                     alt="Image"
                   />
-                </a>
+                </Link>
               </div>
               <div className="col-md-6">
                 <span className="font-weight-medium text-warning">
                   October 24, 2020
                 </span>
-                <a
+                <Link
                   href="/article"
                   className="d-block h2 font-weight-bold"
                 >
                   When Not to Use Objects and Arrays to Store Data
-                </a>
+                </Link>
                 <div className="d-flex align-items-center mb-3">
                   <img
                     className="rounded-pill mr-2"
@@ -51,23 +53,23 @@ const Articles = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="bg-white border rounded-lg pb-4 mb-5 hover-shadow-lg hover-translate-y">
-                <a href="/article">
+                <Link href="/article">
                   <img
                     className="img-fluid rounded-lg mb-4"
                     src="/img/1880x1254.png"
                     alt="Image"
                   />
-                </a>
+                </Link>
                 <div className="px-4">
                   <span className="font-weight-medium text-muted">
                     October 23, 2020
                   </span>
-                  <a
+                  <Link
                     href="/article"
                     className="d-block h2 font-weight-bold"
                   >
                     20 Things Most People Learn Too Late In Life
-                  </a>
+                  </Link>
                   <div className="d-flex align-items-center mb-3">
                     <img
                       className="rounded-pill mr-2"
@@ -88,23 +90,23 @@ const Articles = () => {
             </div>
             <div className="col-lg-6">
               <div className="bg-white border rounded-lg pb-4 mb-5 hover-shadow-lg hover-translate-y">
-                <a href="/article">
+                <Link href="/article">
                   <img
                     className="img-fluid rounded-lg mb-4"
                     src="/img/1880x1254.png"
                     alt="Image"
                   />
-                </a>
+                </Link>
                 <div className="px-4">
                   <span className="font-weight-medium text-muted">
                     October 23, 2020
                   </span>
-                  <a
+                  <Link
                     href="/article"
                     className="d-block h2 font-weight-bold"
                   >
                     How To Finish More Books With The 50-Pages A Day Rule
-                  </a>
+                  </Link>
                   <div className="d-flex align-items-center mb-3">
                     <img
                       className="rounded-pill mr-2"
@@ -125,23 +127,23 @@ const Articles = () => {
             </div>
             <div className="col-lg-6">
               <div className="bg-white border rounded-lg pb-4 mb-5 hover-shadow-lg hover-translate-y">
-                <a href="/article">
+                <Link href="/article">
                   <img
                     className="img-fluid rounded-lg mb-4"
                     src="/img/1880x1254.png"
                     alt="Image"
                   />
-                </a>
+                </Link>
                 <div className="px-4">
                   <span className="font-weight-medium text-muted">
                     October 22, 2020
                   </span>
-                  <a
+                  <Link
                     href="/article"
                     className="d-block h2 font-weight-bold"
                   >
                     7 Simple Self Improvement Tips That Anyone Can Practice
-                  </a>
+                  </Link>
                   <div className="d-flex align-items-center mb-3">
                     <img
                       className="rounded-pill mr-2"
@@ -162,23 +164,23 @@ const Articles = () => {
             </div>
             <div className="col-lg-6">
               <div className="bg-white border rounded-lg pb-4 mb-5 hover-shadow-lg hover-translate-y">
-                <a href="/article">
+                <Link href="/article">
                   <img
                     className="img-fluid rounded-lg mb-4"
                     src="/img/1880x1254.png"
                     alt="Image"
                   />
-                </a>
+                </Link>
                 <div className="px-4">
                   <span className="font-weight-medium text-muted">
                     October 21, 2020
                   </span>
-                  <a
+                  <Link
                     href="/article"
                     className="d-block h2 font-weight-bold"
                   >
                     How Deep Work Can Turn You Into a Productive Beast
-                  </a>
+                  </Link>
                   <div className="d-flex align-items-center mb-3">
                     <img
                       className="rounded-pill mr-2"
@@ -200,20 +202,20 @@ const Articles = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <a
+          <Link
             className="d-inline-flex align-items-center text-primary mx-4"
             href="#"
           >
             <i className="ri-arrow-left-line"></i>
             <span className="ml-1">Previous page</span>
-          </a>
-          <a
+          </Link>
+          <Link
             className="d-inline-flex align-items-center text-primary mx-4"
             href="#"
           >
             <span className="mr-1">Next page</span>
             <i className="ri-arrow-right-line"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ const Transaction = () => {
               Grazie alle nostre <strong>email transazionali dinamiche </strong>
               potrai modificare la grafica ed il contenuto delle email
               automatiche della tua piattaforma{' '}
-              <strong>senza l'aiuto di uno sviluppatore.</strong>
+              <strong>senza l&apos;aiuto di uno sviluppatore.</strong>
             </p>
             <div className="row mt-5">
               <div className="col" data-aos="fade-left" data-aos-delay="200">

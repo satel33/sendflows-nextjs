@@ -110,7 +110,7 @@ const SingleFlow = () => {
                 >
                   <p className="mb-0 px-3 px-md-4 pb-3 pb-md-4">
                     Invia newsletter settimanali ed{' '}
-                    <strong>automatizza l'invio delle tue email o SMS</strong>{' '}
+                    <strong>automatizza l&apos;invio delle tue email o SMS</strong>{' '}
                     tramite il nostro <strong>flow di automazioni</strong> in
                     base a caratteristiche e condizioni del contatto ed invia
                     promo istantanee con un invio broadcast.

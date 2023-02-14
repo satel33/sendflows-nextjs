@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Features = () => {
   return (
     <section className="space-1">
@@ -32,7 +34,7 @@ const Features = () => {
               <h5>Email ed SMS Transazionali</h5>
               <p className="lead">
                 Modifica in pochi click le email ed SMS transazionali senza
-                l'aiuto del tuo sviluppatore.
+                l&quot;aiuto del tuo sviluppatore.
               </p>
             </div>
           </div>
@@ -96,13 +98,13 @@ const Features = () => {
         </div>
       </div>
       <div className="text-center mt-5">
-        <a href="/features" className="btn btn-outline-primary mt-4 mr-2">
+        <Link href="/feature" className="btn btn-outline-primary mt-4 mr-2">
           <span>Scopri tutte le funzioni</span>
           <i
             style={{ verticalAlign: 'sub' }}
             className="ri-arrow-right-s-line ri-lg"
           ></i>
-        </a>
+        </Link>
       </div>
     </section>
   )

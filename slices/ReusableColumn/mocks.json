@@ -422,5 +422,79 @@
         ]
       }
     ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "commonWithSingleImage",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "machine",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Nostrud magna labore ullamco amet ea adipisicing. Voluptate commodo irure anim irure ut velit dolor est incididunt est."
+            }
+          }
+        ]
+      },
+      "image": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+          "width": 4000,
+          "height": 4000
+        },
+        "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+        "width": 4000,
+        "height": 4000,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "is_revert": {
+        "__TYPE__": "BooleanContent",
+        "value": false
+      },
+      "button_icon_classname": {
+        "__TYPE__": "FieldContent",
+        "value": "coast",
+        "type": "Text"
+      },
+      "button_label": {
+        "__TYPE__": "FieldContent",
+        "value": "die",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "dollar",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
   }
 ]

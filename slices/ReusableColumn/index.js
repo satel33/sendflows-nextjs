@@ -843,6 +843,51 @@ const ReusableColumn = ({ slice }) => {
           </div>
         </section>
       )}
+      {variation === 'commonWithSingleImage' && (
+        <section className="space-5">
+          <div className="container">
+            <div className="row align-items-center justify-content-around">
+              {primary.is_revert && (
+                <div className="col-lg-6" data-aos="fade-right">
+                  <img
+                    className="img-fluid rounded-lg"
+                    src={primary.image.url}
+                    alt="Image"
+                  />
+                </div>
+              )}
+              <div className="col-lg-5 mt-4 mt-lg-0" data-aos="fade-left">
+                <h2>{primary.title}</h2>
+                <PrismicRichText field={primary.description} />
+                <div className="row">
+                  <div className="col">
+                    {items.map((item) => (
+                      <div
+                        className="d-flex align-items-center mb-3 mr-3"
+                        key={item.title}
+                      >
+                        <i
+                          className={`${primary.button_icon_classname} ri-xl text-primary mr-2`}
+                        ></i>
+                        <span>{primary.title}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              {!primary.is_revert && (
+                <div className="col-lg-6" data-aos="fade-right">
+                  <img
+                    className="img-fluid rounded-lg"
+                    src={primary.image.url}
+                    alt="Image"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   )
 }

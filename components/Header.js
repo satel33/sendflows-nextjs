@@ -1,10 +1,17 @@
+import { PrismicLink } from '@prismicio/react'
 import React from 'react'
 
-const Header = () => {
+const Header = ({ navigation }) => {
+  const {
+    link_list,
+    button_icon_classname,
+    button_label,
+    button_link,
+  } = navigation.data
   return (
     <nav className="navbar fixed-top navbar-border navbar-expand-lg navbar-light bg-white py-3">
       <div className="container">
-        <a
+        <PrismicLink
           className="navbar-brand order-lg-1 flex-grow-1"
           href="/"
           aria-label="Logo"
@@ -15,14 +22,14 @@ const Header = () => {
             alt="Logo"
             data-svg-inject
           />
-        </a>
+        </PrismicLink>
         <div className="d-none d-md-flex align-items-center order-2 order-lg-2 justify-content-end mr-3 mr-lg-0">
           <a
             className="btn btn-primary d-inline-flex align-items-center"
-            href="https://app.sendflows.io/users/register"
+            href={button_link}
           >
-            <i className="ri-shopping-cart-2-line ri-lg mr-2"></i>
-            <span>Inizia Ora</span>
+            <i className={`${button_icon_classname} ri-lg mr-2`}></i>
+            <span>{button_label}</span>
           </a>
         </div>
         <button
@@ -41,91 +48,13 @@ const Header = () => {
           id="navbar"
         >
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Overview
-              </a>
-            </li>
-            <li className="nav-item dropdown position-relative">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDemosDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Funzioni
-              </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDemosDropdown"
-              >
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#email"
-                >
-                  <i className="ri-send-plane-line ri-lg mr-2"></i>
-                  Email & SMS Marketing
-                </a>
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#whatsapp"
-                >
-                  <i className="ri-whatsapp-line ri-lg mr-2"></i>
-                  Whatsapp Marketing
-                </a>
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#flow"
-                >
-                  <i className="ri-organization-chart ri-lg mr-2"></i>
-                  Automation Flow
-                </a>
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#transactional-email"
-                >
-                  <i className="ri-mail-check-line ri-lg mr-2"></i>
-                  Email Transazionali
-                </a>
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#transactional-sms"
-                >
-                  <i className="ri-chat-check-line ri-lg mr-2"></i>
-                  SMS Transazionali
-                </a>
-                <a
-                  className="dropdown-item d-flex align-items-center"
-                  href="/features#form"
-                >
-                  <i className="ri-survey-line ri-lg mr-2"></i>
-                  Form Builder
-                </a>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a href="/developers" className="nav-link">
-                Developers
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/pricing" className="nav-link">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/blog" className="nav-link">
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="https://app.sendflows.io" className="nav-link">
-                Login
-              </a>
-            </li>
+            {link_list?.map((item) => (
+              <li className="nav-item" key={item.label}>
+                <PrismicLink href={item.link} className="nav-link">
+                  {item.label}
+                </PrismicLink>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

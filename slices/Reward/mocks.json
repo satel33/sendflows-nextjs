@@ -1,0 +1,39 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "description": {
+        "__TYPE__": "FieldContent",
+        "value": "possibly",
+        "type": "Text"
+      },
+      "title_highlight": {
+        "__TYPE__": "FieldContent",
+        "value": "ever",
+        "type": "Text"
+      },
+      "title_common": {
+        "__TYPE__": "FieldContent",
+        "value": "baby",
+        "type": "Text"
+      },
+      "button_label": {
+        "__TYPE__": "FieldContent",
+        "value": "force",
+        "type": "Text"
+      },
+      "button_icon_classname": {
+        "__TYPE__": "FieldContent",
+        "value": "sick",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

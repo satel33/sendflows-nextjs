@@ -1,0 +1,54 @@
+{
+  "id": "reward",
+  "type": "SharedSlice",
+  "name": "Reward",
+  "description": "Reward",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Reward",
+      "primary": {
+        "title_highlight": {
+          "type": "Text",
+          "config": {
+            "label": "Title Highlight",
+            "placeholder": ""
+          }
+        },
+        "title_common": {
+          "type": "Text",
+          "config": {
+            "label": "Title Common",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label",
+            "placeholder": ""
+          }
+        },
+        "button_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Button Icon Classname",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

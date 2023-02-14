@@ -1,0 +1,79 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "ground"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "scientist",
+    "type": "Text"
+  },
+  "author_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+      "width": 3456,
+      "height": 4320
+    },
+    "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+    "width": 3456,
+    "height": 4320,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "author_name": {
+    "__TYPE__": "FieldContent",
+    "value": "roll",
+    "type": "Text"
+  },
+  "date": {
+    "__TYPE__": "FieldContent",
+    "type": "Date",
+    "value": "2019-07-02"
+  },
+  "cover_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+      "width": 4000,
+      "height": 4000
+    },
+    "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+    "width": 4000,
+    "height": 4000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "article_content": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Aliqua ut qui velit esse dolor elit."
+        }
+      }
+    ]
+  },
+  "bio": {
+    "__TYPE__": "FieldContent",
+    "value": "nearest",
+    "type": "Text"
+  }
+}

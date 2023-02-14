@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Process = () => {
   return (
     <section className="space-3">
@@ -66,13 +68,13 @@ const Process = () => {
           </div>
         </div>
         <div className="w-100 w-lg-75 text-center mx-auto mt-3">
-          <a
-            href="/developers"
+          <Link
+            href="/developer"
             className="d-inline-flex align-items-center btn btn-outline-primary mt-4"
           >
             Scopri il programma
             <i className="ri-arrow-right-line ri-lg ml-2"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

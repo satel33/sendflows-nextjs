@@ -1,0 +1,95 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "link_list": {
+        "type": "Group",
+        "config": {
+          "label": "Link List",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Text",
+              "config": {
+                "label": "Link",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "tip": {
+        "type": "Text",
+        "config": {
+          "label": "Tip",
+          "placeholder": ""
+        }
+      },
+      "title_success": {
+        "type": "Text",
+        "config": {
+          "label": "Title Success",
+          "placeholder": ""
+        }
+      },
+      "title_fail": {
+        "type": "Text",
+        "config": {
+          "label": "Title Fail",
+          "placeholder": ""
+        }
+      },
+      "button_label": {
+        "type": "Text",
+        "config": {
+          "label": "Button Label",
+          "placeholder": ""
+        }
+      },
+      "button_placeholder": {
+        "type": "Text",
+        "config": {
+          "label": "Button Placeholder",
+          "placeholder": ""
+        }
+      },
+      "column_left": {
+        "type": "Text",
+        "config": {
+          "label": "Column Left",
+          "placeholder": ""
+        }
+      },
+      "column_middle_first": {
+        "type": "Text",
+        "config": {
+          "label": "Column Middle First",
+          "placeholder": ""
+        }
+      },
+      "column_middle_second": {
+        "type": "Text",
+        "config": {
+          "label": "Column Middle Second",
+          "placeholder": ""
+        }
+      },
+      "column_right": {
+        "type": "Text",
+        "config": {
+          "label": "Column Right",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
