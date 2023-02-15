@@ -1,0 +1,85 @@
+{
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "daughter",
+    "type": "Text"
+  },
+  "description_up": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Exercitation laboris esse excepteur esse. Officia quis aliquip tempor ex voluptate irure id ut laborum sint in esse non."
+        }
+      }
+    ]
+  },
+  "description_down": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Esse Lorem in nulla ut commodo fugiat exercitation consectetur officia commodo. Cillum quis dolor ipsum do enim qui exercitation Lorem fugiat ut cupidatat. Sit occaecat incididunt irure nulla ut id deserunt incididunt voluptate qui elit laboris veniam."
+        }
+      }
+    ]
+  },
+  "card": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Esse eiusmod cillum ea incididunt enim cupidatat occaecat."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "title_left",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "fallen",
+              "type": "Text"
+            }
+          ],
+          [
+            "description_left",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "stretch",
+              "type": "Text"
+            }
+          ],
+          [
+            "title_right",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "together",
+              "type": "Text"
+            }
+          ],
+          [
+            "description_right",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "quite",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

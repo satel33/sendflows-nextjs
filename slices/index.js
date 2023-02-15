@@ -2,14 +2,12 @@
 
 import Banner from './Banner';
 import ComparisonTables from './ComparisonTables';
-import Cookie from './Cookie';
 import Faq from './Faq';
 import Features from './Features';
 import Hero from './Hero';
 import Highlight from './Highlight';
 import HighlightNormal from './HighlightNormal';
 import Pricing from './Pricing';
-import Privacy from './Privacy';
 import Process from './Process';
 import ReusableColumn from './ReusableColumn';
 import Reveiws from './Reveiws';
@@ -19,14 +17,12 @@ import Testimonials from './Testimonials';
 export {
 	Banner,
 	ComparisonTables,
-	Cookie,
 	Faq,
 	Features,
 	Hero,
 	Highlight,
 	HighlightNormal,
 	Pricing,
-	Privacy,
 	Process,
 	ReusableColumn,
 	Reveiws,
@@ -37,14 +33,12 @@ export {
 export const components = {
 	banner: Banner,
 	comparison_tables: ComparisonTables,
-	cookie: Cookie,
 	faq: Faq,
 	features: Features,
 	hero: Hero,
 	highlight: Highlight,
 	highlight_normal: HighlightNormal,
 	pricing: Pricing,
-	privacy: Privacy,
 	process: Process,
 	reusable_column: ReusableColumn,
 	reveiws: Reveiws,

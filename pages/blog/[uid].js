@@ -1,9 +1,9 @@
-import Layout from "@/components/Layout";
-import { PrismicRichText } from "@prismicio/react";
-import { createClient } from "../../prismicio";
+import Layout from '@/components/Layout'
+import { PrismicRichText } from '@prismicio/react'
+import { createClient } from '../../prismicio'
 
 const Page = ({ article, header, footer }) => {
-  const { data } = article;
+  const { data } = article
   return (
     <Layout
       alternateLanguages={article.alternate_languages}
@@ -41,18 +41,16 @@ const Page = ({ article, header, footer }) => {
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
 
 export async function getStaticProps({ params, locale, previewData }) {
-  const client = createClient({ previewData });
-  const article = await client.getByUID("article", params.uid, {
-    lang: locale,
-  });
-  const header = await client.getSingle("header", { lang: locale });
-  const footer = await client.getSingle("footer", { lang: locale });
+  const client = createClient({ previewData })
+  const article = await client.getByUID('article', params.uid, { lang: locale })
+  const header = await client.getSingle('header', { lang: locale })
+  const footer = await client.getSingle('footer', { lang: locale })
 
   return {
     props: {
@@ -60,21 +58,20 @@ export async function getStaticProps({ params, locale, previewData }) {
       header,
       footer,
     },
-  };
+  }
 }
 
 export async function getStaticPaths() {
-  const client = createClient();
+  const client = createClient()
 
-  const Articles = await client.getAllByType("article", { lang: "*" });
+  const Articles = await client.getAllByType('article')
 
   return {
     paths: Articles.map((article) => {
       return {
         params: { uid: article.uid },
-        locale: article.lang,
-      };
+      }
     }),
     fallback: false,
-  };
+  }
 }

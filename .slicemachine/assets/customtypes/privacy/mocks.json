@@ -1,0 +1,18 @@
+{
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "giant",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Cillum sint tempor ut reprehenderit excepteur labore in aute reprehenderit anim adipisicing do. Amet nostrud irure et. In incididunt non culpa consequat sunt nulla tempor do laboris elit qui incididunt."
+        }
+      }
+    ]
+  }
+}

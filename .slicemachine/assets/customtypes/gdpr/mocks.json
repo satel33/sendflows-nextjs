@@ -1,0 +1,18 @@
+{
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "direct",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Quis excepteur labore commodo dolor irure exercitation excepteur mollit aliquip duis irure pariatur et."
+        }
+      }
+    ]
+  }
+}

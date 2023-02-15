@@ -1,8 +1,8 @@
-import Layout from "@/components/Layout";
-import { SliceZone } from "@prismicio/react";
+import Layout from '@/components/Layout'
+import { SliceZone } from '@prismicio/react'
 
-import { createClient } from "../prismicio";
-import { components } from "../slices";
+import { createClient } from '../prismicio'
+import { components } from '../slices'
 
 const Page = ({ page, header, footer }) => {
   return (
@@ -13,17 +13,17 @@ const Page = ({ page, header, footer }) => {
     >
       <SliceZone slices={page.data.slices} components={components} />
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
 
 export async function getStaticProps({ params, locale, previewData }) {
-  const client = createClient({ previewData });
+  const client = createClient({ previewData })
 
-  const page = await client.getByUID("page", params.uid, { lang: locale });
-  const header = await client.getSingle("header", { lang: locale });
-  const footer = await client.getSingle("footer", { lang: locale });
+  const page = await client.getByUID('page', params.uid, { lang: locale })
+  const header = await client.getSingle('header', { lang: locale })
+  const footer = await client.getSingle('footer', { lang: locale })
 
   return {
     props: {
@@ -31,21 +31,20 @@ export async function getStaticProps({ params, locale, previewData }) {
       header,
       footer,
     },
-  };
+  }
 }
 
 export async function getStaticPaths() {
-  const client = createClient();
+  const client = createClient()
 
-  const pages = await client.getAllByType("page", { lang: "*" });
+  const pages = await client.getAllByType('page')
 
   return {
     paths: pages.map((page) => {
       return {
         params: { uid: page.uid },
-        locale: page.lang,
-      };
+      }
     }),
     fallback: false,
-  };
+  }
 }

@@ -101,17 +101,6 @@
       "default": {
         "primary": {}
       }
-    },
-    "Privacy": {
-      "default": {
-        "primary": {}
-      }
-    },
-    "Cookie": {
-      "default": {
-        "primary": {},
-        "items": {}
-      }
     }
   },
   "_cts": {
@@ -120,6 +109,11 @@
     "footer": {},
     "page": {},
     "article": {},
-    "blog": {}
+    "blog": {},
+    "privacy": {},
+    "cookie": {
+      "card": {}
+    },
+    "gdpr": {}
   }
 }

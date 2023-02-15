@@ -2,17 +2,6 @@ import { SliceZone } from '@prismicio/react'
 import { createClient } from '../prismicio'
 import { components } from '../slices'
 import Layout from '@/components/Layout'
-// const Pricing = () => {
-//   return (
-//     <>
-//       <PricingHeader />
-//       <PricingContent />
-//       <CustomPlan />
-//       <Functions />
-//       <PricingFaq />
-//     </>
-//   )
-// }
 
 const Pricing = ({ pricing, header, footer }) => {
   const pricing_slices = pricing.data.slices.filter((_, index) => index < 4)

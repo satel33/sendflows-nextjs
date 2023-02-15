@@ -41,22 +41,30 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Head></Head>
-      {/* <script
+      <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossOrigin="anonymous"
-      ></script>
-      <Script src="https://code.jquery.com/jquery-3.6.0.min.js" async /> */}
-      <Script src="/js/jquery.min.js" />
+        async
+      />
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+        async
+      />
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        async
+      />
+      {/* <Script src="https://code.jquery.com/jquery-3.6.1.min.js" async />
+      <Script src="/js/jquery.min.js" /> */}
       <Script src="/js/popper.min.js" />
       <Script src="/js/svg-inject.min.js" />
       <Script src="/js/aos.min.js" />
       <Script src="/js/medium-zoom.min.js" />
       <Script src="/js/plyr.min.js" />
       <Script src="/js/swiper.min.js" />
-      <Script src="/js/jquery.waypoints.min.js" />
-      <Script src="/js/counterup.min.js" />
+      {/* <Script src="/js/jquery.waypoints.min.js" />
+      <Script src="/js/counterup.min.js" /> */}
       <Script src="/js/findeas.js" />
 
       <PrismicProvider

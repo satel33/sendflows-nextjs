@@ -1,0 +1,80 @@
+{
+  "id": "cookie",
+  "label": "Cookie",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "description_up": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description Up",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "description_down": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description Down",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "card": {
+        "type": "Group",
+        "config": {
+          "label": "Card",
+          "fields": {
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Description",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "title_left": {
+              "type": "Text",
+              "config": {
+                "label": "Title Left",
+                "placeholder": ""
+              }
+            },
+            "description_left": {
+              "type": "Text",
+              "config": {
+                "label": "Description Left",
+                "placeholder": ""
+              }
+            },
+            "title_right": {
+              "type": "Text",
+              "config": {
+                "label": "Title Right",
+                "placeholder": ""
+              }
+            },
+            "description_right": {
+              "type": "Text",
+              "config": {
+                "label": "Description Right",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
