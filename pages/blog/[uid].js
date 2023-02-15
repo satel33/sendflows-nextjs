@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import { PrismicRichText } from "@prismicio/react";
 import { createClient } from "../../prismicio";
 
-const Page = ({ article, header, footer }) => {
+const Article = ({ article, header, footer }) => {
   const { data } = article;
   return (
     <Layout
@@ -10,32 +10,37 @@ const Page = ({ article, header, footer }) => {
       header={header}
       footer={footer}
     >
-      <section class="space-5 pb-5">
-        <div class="container">
-          <div class="text-center w-lg-75 mx-auto mb-5">
-            <h1 class="font-weight-bold">{data.title}</h1>
-            <div class="d-flex align-items-center mb-3 justify-content-center">
+      <section className="space-5 pb-5">
+        <div className="container">
+          <div className="text-center w-lg-75 mx-auto mb-5">
+            <h1 className="font-weight-bold">{data.title}</h1>
+            <div className="d-flex align-items-center mb-3 justify-content-center">
               <img
-                class="rounded-pill mr-2"
+                className="rounded-pill mr-2"
                 src={data.author_image.url}
                 height="36"
                 alt="Avatar"
               />
-              <h6 class="m-0 mr-3">{data.author_name}</h6>
-              <span class="font-weight-medium text-primary">{data.date}</span>
+              <h6 className="m-0 mr-3">{data.author_name}</h6>
+              <span className="font-weight-medium text-primary">
+                {data.date}
+              </span>
             </div>
           </div>
           <img
             src={data.cover_image.url}
             alt="Image"
-            class="img-fluid rounded-lg"
+            className="img-fluid rounded-lg"
             data-zoomable
           />
           <PrismicRichText field={data.article_content} />
-          <div class="text-center mt-5 pt-3">
-            <a class="d-inline-flex align-items-center text-primary" href="#">
-              <i class="ri-arrow-left-line"></i>
-              <span class="ml-1">Return to homepage</span>
+          <div className="text-center mt-5 pt-3">
+            <a
+              className="d-inline-flex align-items-center text-primary"
+              href="#"
+            >
+              <i className="ri-arrow-left-line"></i>
+              <span className="ml-1">Return to homeBlog</span>
             </a>
           </div>
         </div>
@@ -44,7 +49,7 @@ const Page = ({ article, header, footer }) => {
   );
 };
 
-export default Page;
+export default Article;
 
 export async function getStaticProps({ params, locale, previewData }) {
   const client = createClient({ previewData });
