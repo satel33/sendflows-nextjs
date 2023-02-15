@@ -72,7 +72,7 @@ export async function getStaticPaths() {
     paths: Articles.map((article) => {
       return {
         params: { uid: article.uid },
-        locale: page.lang,
+        locale: article.lang,
       };
     }),
     fallback: false,
