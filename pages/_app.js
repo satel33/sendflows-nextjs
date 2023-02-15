@@ -11,13 +11,12 @@ import "@/styles/globals.css";
 import "../public/css/aos.min.css";
 import "../public/css/custom-s.css";
 import "../public/css/docs.min.css";
-import "../public/css/findeas.min.css";
 import "../public/css/floating.css";
 import "../public/css/plyr.min.css";
 import "../public/css/prism.min.css";
 import "../public/css/swiper.min.css";
 import "../public/icon/remixicon/remixicon.css";
-import Head from "next/head";
+import "../public/css/findeas.min.css";
 
 const richTextComponents = {
   image: ({ node, key }) => {
