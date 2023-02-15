@@ -3,18 +3,6 @@ const prismic = require("@prismicio/client");
 const sm = require("./sm.json");
 
 /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//   nextScriptWorkers: true,
-//   webpack(config) {
-//     config.module.rules.push({
-//       test: /\.svg$/,
-//       use: ['@svgr/webpack'],
-//     })
-
-//     return config
-//   },
-// }
 const nextConfig = async () => {
   const client = prismic.createClient(sm.apiEndpoint);
 
@@ -23,28 +11,14 @@ const nextConfig = async () => {
 
   return {
     webpack: (config, { dev }) => {
-      config.module.rules.push({
-        test: /\.svg$/,
-        use: ["@svgr/webpack"],
-      });
-      // config.plugins.push(
-      //   new webpack.ProvidePlugin({
-      //     $: "jquery",
-      //     jQuery: "jquery",
-      //   })
-      // );
+      config.plugins.push(
+        new webpack.ProvidePlugin({
+          $: "jquery",
+          jQuery: "jquery",
+        })
+      );
       return config;
     },
-
-    nextScriptWorkers: true,
-    //   webpack(config) {
-    //     config.module.rules.push({
-    //       test: /\.svg$/,
-    //       use: ['@svgr/webpack'],
-    //     })
-
-    //     return config
-    //   },
     reactStrictMode: true,
     i18n: {
       // These are all the locales you want to support in
