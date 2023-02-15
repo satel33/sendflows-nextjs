@@ -5,9 +5,8 @@ import Link from "next/link";
 import { PrismicProvider } from "@prismicio/react";
 import { PrismicPreview } from "@prismicio/next";
 import { repositoryName, linkResolver } from "../prismicio";
-import "bootstrap/dist/css/bootstrap.css";
 
-import "@/styles/globals.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "../public/css/aos.min.css";
 import "../public/css/custom-s.css";
 import "../public/css/docs.min.css";
