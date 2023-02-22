@@ -1,0 +1,611 @@
+{
+  "id": "two_columns",
+  "type": "SharedSlice",
+  "name": "TwoColumns",
+  "description": "TwoColumns",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {},
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textWithLogos",
+      "name": "Text with Logos",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "subdescription": {
+          "type": "Text",
+          "config": {
+            "label": "SubDescription",
+            "placeholder": ""
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textWithChecklistStyle1",
+      "name": "Text with Checklist style 1",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "item_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Item Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textWithChecklistStyle2",
+      "name": "Text with Checklist style 2",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "item_icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Item Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "text1": {
+          "type": "Text",
+          "config": {
+            "label": "text1",
+            "placeholder": ""
+          }
+        },
+        "text2": {
+          "type": "Text",
+          "config": {
+            "label": "text2",
+            "placeholder": ""
+          }
+        },
+        "text3": {
+          "type": "Text",
+          "config": {
+            "label": "text3",
+            "placeholder": ""
+          }
+        },
+        "text4": {
+          "type": "Text",
+          "config": {
+            "label": "text4",
+            "placeholder": ""
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textAndFeatures",
+      "name": "Text and Features",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textWithStatistics",
+      "name": "Text with Statistics",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "icon_classname": {
+          "type": "Text",
+          "config": {
+            "label": "Icon Classname",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "title_number": {
+          "type": "Number",
+          "config": {
+            "label": "Title Number",
+            "placeholder": ""
+          }
+        },
+        "title_text": {
+          "type": "Text",
+          "config": {
+            "label": "Title Text",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "textWithAccordions",
+      "name": "Text With accordions",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TwoColumns",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "is_revert": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Revert",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "html_type": {
+          "type": "Select",
+          "config": {
+            "label": "HTML Type",
+            "placeholder": "",
+            "options": [
+              "Singleflow",
+              "Animation",
+              "Form",
+              "Two Image1",
+              "Two Image2"
+            ]
+          }
+        },
+        "text1": {
+          "type": "Text",
+          "config": {
+            "label": "text1",
+            "placeholder": ""
+          }
+        },
+        "text2": {
+          "type": "Text",
+          "config": {
+            "label": "text2",
+            "placeholder": ""
+          }
+        },
+        "text3": {
+          "type": "Text",
+          "config": {
+            "label": "text3",
+            "placeholder": ""
+          }
+        },
+        "text4": {
+          "type": "Text",
+          "config": {
+            "label": "text4",
+            "placeholder": ""
+          }
+        },
+        "is_background_light": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Background Light",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

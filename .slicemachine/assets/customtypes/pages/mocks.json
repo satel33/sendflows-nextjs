@@ -332,61 +332,6 @@
         }
       },
       {
-        "key": "reusable_column$348526b9-30d2-4d03-81be-5448b291a975",
-        "name": "reusable_column",
-        "widget": {
-          "__TYPE__": "SharedSliceContent",
-          "variation": "default",
-          "primary": {
-            "title": {
-              "__TYPE__": "FieldContent",
-              "value": "job",
-              "type": "Text"
-            },
-            "description": {
-              "__TYPE__": "StructuredTextContent",
-              "value": [
-                {
-                  "type": "paragraph",
-                  "content": {
-                    "text": "Et ipsum commodo deserunt velit exercitation nisi reprehenderit adipisicing cillum incididunt aliqua aliquip duis pariatur."
-                  }
-                }
-              ]
-            }
-          },
-          "items": [
-            {
-              "__TYPE__": "GroupItemContent",
-              "value": [
-                [
-                  "title",
-                  {
-                    "__TYPE__": "FieldContent",
-                    "value": "studying",
-                    "type": "Text"
-                  }
-                ],
-                [
-                  "description",
-                  {
-                    "__TYPE__": "StructuredTextContent",
-                    "value": [
-                      {
-                        "type": "paragraph",
-                        "content": {
-                          "text": "Deserunt excepteur consequat do qui non. Ad ex ipsum non ea quis cupidatat irure id mollit magna sint."
-                        }
-                      }
-                    ]
-                  }
-                ]
-              ]
-            }
-          ]
-        }
-      },
-      {
         "key": "reveiws$b14e376e-deb5-4614-a36a-19d0d4eb34ed",
         "name": "reveiws",
         "widget": {

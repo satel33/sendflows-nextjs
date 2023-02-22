@@ -17,6 +17,12 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "banner": {
+              "type": "SharedSlice"
+            },
+            "comparison_tables": {
+              "type": "SharedSlice"
+            },
             "faq": {
               "type": "SharedSlice"
             },
@@ -32,37 +38,22 @@
             "pricing": {
               "type": "SharedSlice"
             },
-            "highlight_normal": {
-              "type": "SharedSlice"
-            },
             "process": {
               "type": "SharedSlice"
             },
-            "testimonials": {
+            "highlight_normal": {
               "type": "SharedSlice"
             },
             "reveiws": {
               "type": "SharedSlice"
             },
-            "reusable_column": {
-              "type": "SharedSlice"
-            },
-            "comparison_tables": {
-              "type": "SharedSlice"
-            },
-            "banner": {
-              "type": "SharedSlice"
-            },
             "reward": {
               "type": "SharedSlice"
             },
-            "privacy": {
+            "testimonials": {
               "type": "SharedSlice"
             },
-            "cookie": {
-              "type": "SharedSlice"
-            },
-            "blog": {
+            "two_columns": {
               "type": "SharedSlice"
             }
           }

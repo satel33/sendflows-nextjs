@@ -3,6 +3,19 @@
     "Hero": {
       "default": {
         "primary": {}
+      },
+      "style1": {
+        "primary": {}
+      },
+      "style2": {
+        "primary": {},
+        "items": {}
+      },
+      "style4": {
+        "primary": {}
+      },
+      "style3": {
+        "primary": {}
       }
     },
     "Testimonials": {
@@ -59,39 +72,6 @@
         "items": {}
       }
     },
-    "ReusableColumn": {
-      "default": {
-        "primary": {},
-        "items": {}
-      },
-      "transactionalEmail": {
-        "items": {},
-        "primary": {}
-      },
-      "signupForm": {
-        "primary": {},
-        "items": {}
-      },
-      "emailMarketing": {
-        "items": {},
-        "primary": {}
-      },
-      "smsMarketing": {
-        "items": {},
-        "primary": {}
-      },
-      "whatsappMarketing": {
-        "primary": {},
-        "items": {}
-      },
-      "singleFlow": {
-        "items": {}
-      },
-      "commonWithSingleImage": {
-        "primary": {},
-        "items": {}
-      }
-    },
     "Banner": {
       "default": {
         "primary": {}
@@ -99,6 +79,32 @@
     },
     "Reward": {
       "default": {
+        "primary": {}
+      }
+    },
+    "TwoColumns": {
+      "default": {
+        "primary": {}
+      },
+      "textWithLogos": {
+        "primary": {}
+      },
+      "textWithChecklistStyle1": {
+        "primary": {},
+        "items": {}
+      },
+      "textWithChecklistStyle2": {
+        "primary": {}
+      },
+      "textAndFeatures": {
+        "primary": {},
+        "items": {}
+      },
+      "textWithStatistics": {
+        "primary": {},
+        "items": {}
+      },
+      "textWithAccordions": {
         "primary": {}
       }
     }
